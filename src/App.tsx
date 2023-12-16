@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import React from 'react';
 import './App.css';
 
 const App: React.FC = () => {
@@ -14,14 +13,13 @@ const App: React.FC = () => {
     // 予約情報を設定
     const info = `Reservation confirmed for ${datetime} for ${guests} guests.\n Remarks:${remarks}`;
     setReservationInfo(info);
-
     // ここでフォームの送信処理を実行する
     console.log(info);
   };
 
   return (
     <div className="container">
-      <h1>Reservation Form</h1>
+      <h1 className='header'>Reservation Form</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="datetime">Date and Time:</label>
@@ -59,13 +57,13 @@ const App: React.FC = () => {
           />
         </div>
         <div>
-          <button type="submit">Submit</button>
+          <button type="submit" className='submit_button'>Submit</button>
         </div>
       </form>
 
       {reservationInfo && (
-        <div className="reservation-info">
-          <h2>Reservation Information</h2>
+        <div>
+          <h2 className="reservation-info">Reservation Information</h2>
           <p>{reservationInfo}</p>
         </div>
       )}

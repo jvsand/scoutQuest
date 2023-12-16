@@ -2,20 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #2f97d4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +12,23 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.reservation-info {
+  background-color: #2f97d4;
+  color: white;
+  pointer-events: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit_button,
+a.submit_button {
+  color: #fff;
+  margin: 10px 100px;
+  background-color: #eb6100;
+}
+.submit_button:hover,
+a.submit_button:hover {
+  color: #fff;
+  background: #f56500;
+}
+a.submit_button {
+  border-radius: 100vh;
 }
