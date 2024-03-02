@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45450b7dbc55484c90cfa24e18987ce, type: 3}
+  m_Name: slimeBlack
+  m_EditorClassIdentifier: 
+  name: "\u30C0\u30FC\u30AF\u30B9\u30E9\u30A4\u30E0"
+  description: "\u30B9\u30E9\u30A4\u30E0\u3088\u308A\u3061\u3087\u3044\u5F37\u3044"
+  frontFprite: {fileID: -4658586436642745237, guid: 409f5c034f315e54fb2b5281c4136a28, type: 3}
+  type1: 13
+  type2: 0
+  maxHP: 30
+  maxMP: 20
+  attack: 3
+  defense: 4
+  spAttack: 8
+  spDefense: 5
+  speed: 5
+  learnableMoves:
+  - _base: {fileID: 11400000, guid: 18edb777694a77c4282d7a6c18d49dad, type: 2}
+    level: 2
+  - _base: {fileID: 11400000, guid: d908ccd166cd88544950bfb1253b6912, type: 2}
+    level: 8
