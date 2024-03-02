@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #2f97d4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.reservation-info {
+  background-color: #2f97d4;
+  color: white;
+  pointer-events: none;
+}
+
+.submit_button,
+a.submit_button {
+  color: #fff;
+  margin: 10px 100px;
+  background-color: #eb6100;
+}
+.submit_button:hover,
+a.submit_button:hover {
+  color: #fff;
+  background: #f56500;
+}
+a.submit_button {
+  border-radius: 100vh;
+}
