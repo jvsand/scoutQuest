@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "\u30B9\u30E9\u30A4\u30E0"
   description: "\u6700\u521D\u306E\u3042\u3044\u3064"
-  frontFprite: {fileID: -764712515653950553, guid: 95e278b6571c60e4a94432cb406e31a6, type: 3}
+  frontSprite: {fileID: -7096866247849888591, guid: 95e278b6571c60e4a94432cb406e31a6, type: 3}
   type1: 2
   type2: 0
-  maxHP: 15
-  maxMP: 4
-  attack: 3
-  defense: 2
-  spAttack: 2
-  spDefense: 3
-  speed: 3
+  maxHP: 20
+  maxMP: 15
+  attack: 20
+  defense: 20
+  spAttack: 10
+  spDefense: 10
+  speed: 20
   learnableMoves:
   - _base: {fileID: 11400000, guid: 18edb777694a77c4282d7a6c18d49dad, type: 2}
     level: 2
